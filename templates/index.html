@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>My Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Helvetica"}
+    </style>
+<body onload="getAll()">
+
+    <!-- Top container -->
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block" style="width:260px;background-color:#e5e5e5; margin-left: 10px" id="mySidebar"><br>
+  
+    <div class="w3-container w3-row">
+
+      <div class="w3-col s8 w3-bar">
+          <h4> <span style="margin-left:55px">Welcome</span></h4>
+          <h4> <span style="margin-left:50px"><strong>ANALYST</strong></span><br></h4>
+
+      </div>
+    </div>
+    <hr>
+
+    <div class="w3-bar-block" style="margin-left: 70px">
+            <form action="http://127.0.0.1:5000/link/LINK1" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 1 
+
+                </button>
+                
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK2" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 2</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK3" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 3</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK4" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 4</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK5" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 5</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK6" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                 name="foo" value="upvote">Link 6</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK7" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 7</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK8" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 8</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK9" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 9</button>
+            </form>
+            <br>
+            <form action="http://127.0.0.1:5000/link/LINK10" method="post">
+                <button class="w3-btn w3-white w3-border w3-round-large"
+                name="foo" value="upvote">Link 10</button>
+            </form>
+            <br>
+            <br>
+            <br>
+
+    </div>
+  </nav>
+  <!-- End Sidebar/menu -->
+
+  <!-- !PAGE CONTENT! -->
+<div id="main" class="w3-main" style="margin-left:300px;margin-top:10px;margin-top:10px">
+
+    <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+      <h4><b><i class="fa fa-bar-chart"></i> David's Analytics</b></h4>
+
+    </header>
+
+  <!-- Square boxes -->
+<div>
+    
+    <hr style="margin-right:15px">
+    <div class="w3-display-container" style="height:600px; margin-right: 15px;border:none" frameBorder="none">
+            <img src="http://localhost:5000/plot.png" style="width:800px; height:800px"  alt="Graph-ranking">
+
+    </div>  
+
+    <hr style="margin-right:15px">
+
+</div>
+
+</body>
+</html>
